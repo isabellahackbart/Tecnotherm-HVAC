@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnotherm HVAC</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<canvas id="particles"></canvas>
+ 
+  <nav id="navbar">
+    <div class="nav-brand">
+      <img src="./FOTOS/certo.png" alt="Logo Tecnotherm" class="nav-logo">
+      <span class="nav-name">TECNOTHERM<em>HVAC</em></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#inicio" data-nav>Início</a></li>
+      <li><a href="#sobre" data-nav>Sobre</a></li>
+      <li><a href="#servicos" data-nav>Serviços</a></li>
+      <li><a href="#contato" data-nav>Contato</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#inicio" class="mob-link">Início</a></li>
+      <li><a href="#sobre" class="mob-link">Sobre</a></li>
+      <li><a href="#servicos" class="mob-link">Serviços</a></li>
+      <li><a href="#contato" class="mob-link">Contato</a></li>
+    </ul>
+  </div>
+
+
+  <section id="inicio" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-noise"></div>
+    <div class="hero-content">
+      <span class="hero-label reveal">HVAC · CLIMATIZAÇÃO · VENTILAÇÃO</span>
+      <h1 class="hero-title reveal">
+  Conforto Inteligente<br>em cada ambiente
+</h1>
+
+      <p class="hero-sub reveal">Sistemas de climatização, ventilação e exaustão mecânica com qualidade técnica e eficiência energética.</p>
+      <div class="hero-cta reveal">
+        <a href="#contato" class="btn-primary">Solicitar Orçamento</a>
+        <a href="#servicos" class="btn-ghost">Ver Serviços</a>
+      </div>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="hero-stat">
+        <span class="stat-num" data-target="500">0</span><span>+</span>
+        <p>Projetos</p>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <span class="stat-num" data-target="10">0</span><span>+</span>
+        <p>Anos de experiência</p>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <span class="stat-num" data-target="98">0</span><span>%</span>
+        <p>Satisfação</p>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </section>
+<div class="cursor-glow"></div>
+  <section class="destaques">
+    <div class="destaque-card reveal">
+      <div class="destaque-icon">
+        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/><path d="M13 20l5 5 9-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <h4>Instalação Profissional</h4>
+        <p>Rápida, segura e com projeto sob medida</p>
+      </div>
+    </div>
+    <div class="destaque-card reveal">
+      <div class="destaque-icon">
+        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/><path d="M14 26c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="20" cy="15" r="2.5" stroke="currentColor" stroke-width="2"/></svg>
+      </div>
+      <div>
+        <h4>Manutenção Preventiva</h4>
+        <p>Limpeza e revisão completa do sistema</p>
+      </div>
+    </div>
+    <div class="destaque-card reveal">
+      <div class="destaque-icon">
+        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"/><rect x="13" y="16" width="14" height="10" rx="2" stroke="currentColor" stroke-width="2"/><path d="M17 16v-3a3 3 0 016 0v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <div>
+        <h4>Venda de Equipamentos</h4>
+        <p>Sistemas das melhores marcas do mercado</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="sobre-left reveal">
+      <span class="section-label">Sobre Nós</span>
+      <h2 class="section-title">Referência em<br>climatização<br><em>desde 2014</em></h2>
+      <p>Com forte compromisso em entregar soluções completas e de qualidade, a Tecnotherm atua de forma técnica e eficiente, atendendo demandas residenciais e comerciais.</p>
+      <p>Somos especialistas em sistemas centrais de ar-condicionado, ventilação e exaustão, garantindo ambientes confortáveis com performance energética adequada.</p>
+    </div>
+    <div class="sobre-right reveal">
+      <h3 class="engenheiros-titulo">Nossos Engenheiros</h3>
+      <div class="engenheiros-grid">
+
+        <div class="eng-card">
+          <div class="eng-foto eng-foto-1"></div>
+          <div class="eng-info">
+            <h4>João Vitor Pereira</h4>
+            <span>Eng. Mecânico · 15 anos</span>
+            <p>Especialista em dimensionamento e instalação de sistemas de ar-condicionado residenciais e comerciais. Foco em eficiência energética.</p>
+          </div>
+        </div>
+
+        <div class="eng-card">
+          <div class="eng-foto eng-foto-2"></div>
+          <div class="eng-info">
+            <h4>Carlos Da Silva</h4>
+            <span>Eng. Automação · 10 anos</span>
+            <p>Especialista em automação de sistemas HVAC. Soluções modernas para economia de energia e desempenho máximo.</p>
+          </div>
+        </div>
+
+        <div class="eng-card">
+          <div class="eng-foto eng-foto-3"></div>
+          <div class="eng-info">
+            <h4>Fernando Costa</h4>
+            <span>Eng. Mecânico · 12 anos</span>
+            <p>Especialista em diagnóstico técnico e otimização de sistemas, garantindo funcionamento eficiente e durabilidade.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="servicos">
+    <div class="servicos-header reveal">
+      <span class="section-label">O que fazemos</span>
+      <h2 class="section-title">Nossos <em>Serviços</em></h2>
+      <p>Soluções completas em climatização para residências, empresas e indústrias</p>
+    </div>
+
+    <div class="servicos-grid">
+      <article class="srv-card reveal" data-index="0">
+        <div class="srv-num">01</div>
+        <div class="srv-icon">❄️</div>
+        <h3>Instalação</h3>
+        <p>Split, VRF, Chiller e sistemas de grande porte com projeto técnico sob medida.</p>
+      </article>
+      <article class="srv-card reveal" data-index="1">
+        <div class="srv-num">02</div>
+        <div class="srv-icon">🔧</div>
+        <h3>Manutenção</h3>
+        <p>Preventiva e corretiva para prolongar a vida útil do seu equipamento.</p>
+      </article>
+      <article class="srv-card reveal" data-index="2">
+        <div class="srv-num">03</div>
+        <div class="srv-icon">📋</div>
+        <h3>PMOC</h3>
+        <p>Plano de Manutenção, Operação e Controle conforme a legislação vigente.</p>
+      </article>
+      <article class="srv-card reveal" data-index="3">
+        <div class="srv-num">04</div>
+        <div class="srv-icon">📐</div>
+        <h3>Projetos</h3>
+        <p>Dimensionamento técnico e projetos de climatização personalizados.</p>
+      </article>
+      <article class="srv-card reveal" data-index="4">
+        <div class="srv-num">05</div>
+        <div class="srv-icon">💨</div>
+        <h3>Higienização</h3>
+        <p>Limpeza profunda de dutos e equipamentos para um ar mais saudável.</p>
+      </article>
+      <article class="srv-card reveal" data-index="5">
+        <div class="srv-num">06</div>
+        <div class="srv-icon">🚨</div>
+        <h3>Emergência 24h</h3>
+        <p>Atendimento rápido quando você mais precisa, todos os dias.</p>
+      </article>
+    </div>
+
+    <div class="servicos-cta reveal">
+      <p>Encontrou o serviço que precisa?</p>
+      <a href="#contato" class="btn-primary">Peça um orçamento gratuito</a>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="contato-inner">
+      <div class="contato-left reveal">
+        <span class="section-label">Fale conosco</span>
+        <h2 class="section-title">Peça seu<br><em>orçamento</em><br>gratuito</h2>
+        <p>Preencha o formulário e nossa equipe entrará em contato em até 24 horas.</p>
+        <ul class="contato-info">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/></svg>
+            Vila Velha, ES
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.02 2.18 2 2 0 012 .02h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+            Atendimento 24h
+          </li>
+        </ul>
+      </div>
+      <div class="contato-right reveal">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            <span class="form-error" id="err-nome"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            <span class="form-error" id="err-email"></span>
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(27) 9 0000-0000">
+          </div>
+          <div class="form-group">
+            <label for="servico">Serviço de interesse</label>
+            <select id="servico" name="servico">
+              <option value="">Selecione um serviço...</option>
+              <option>Instalação</option>
+              <option>Manutenção</option>
+              <option>PMOC</option>
+              <option>Projetos</option>
+              <option>Higienização</option>
+              <option>Emergência 24h</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Descreva o que você precisa..." required rows="4"></textarea>
+            <span class="form-error" id="err-mensagem"></span>
+          </div>
+          <button type="submit" class="btn-primary btn-form" id="submitBtn">
+            <span id="btnText">Enviar mensagem</span>
+            <svg id="btnSpinner" viewBox="0 0 24 24" fill="none" style="display:none;width:18px;height:18px;animation:spin 0.8s linear infinite"><circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.3)" stroke-width="2.5"/><path d="M12 2a10 10 0 0110 10" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </button>
+          <div class="form-success" id="formSuccess" style="display:none">
+            ✅ Mensagem enviada! Entraremos em contato em breve.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="./FOTOS/certo.png" alt="Logo" class="footer-logo">
+        <span>TECNOTHERM<em>HVAC</em></span>
+      </div>
+      <nav class="footer-nav">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>© 2026 Tecnotherm HVAC — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+<script src="tecnotherm.js"></script>
+</html>
