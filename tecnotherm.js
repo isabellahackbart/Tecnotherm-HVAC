@@ -254,16 +254,9 @@ revealItems.forEach((item) => {
   revealObserver.observe(item);
 
 });
-const heroBg = document.querySelector('.hero-bg');
 
-window.addEventListener('scroll', () => {
 
-  const y = window.scrollY * 0.08;
 
-  heroBg.style.transform =
-    `translateY(${y}px) scale(1.05)`;
-
-});
 const canvas = document.getElementById("particles");
 const ctx = canvas.getContext("2d");
 
@@ -308,7 +301,7 @@ class Particle {
 
 function createParticles() {
   particlesArray = [];
-  for (let i = 0; i < 80; i++) {
+  for (let i = 0; i < 50; i++) {
     particlesArray.push(new Particle());
   }
 }
